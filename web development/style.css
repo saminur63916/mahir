@@ -1,0 +1,236 @@
+p1{
+    font-family: Arial;
+}
+p2{
+    font-family: fantasy;
+    background-color: red;
+ 
+}
+p3{
+    font-size: medium;
+}
+p4{
+    font-weight: bold;
+    font-size: x-large;
+    background-color: crimson;
+}
+h1{
+    font-style: oblique;color:black;
+    font-variant: small-caps;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue
+}
+.a{
+    font-size: xx-large;
+    color: chocolate;
+}
+.my{
+    width: 1300px;
+    height: 300px;
+    background-color: darkred;
+}
+.my1{
+    width: 750px;
+    height: 150px;
+    background-color: steelblue;
+}
+.xx{
+margin-top:20px ;
+margin-left: 30%;
+}
+.zz{
+    background-color: palevioletred;
+    margin: 0px 300px;
+    padding: 50px 50px;
+}
+.cc{
+    width:300px ;
+    height: 300px;
+    background-image:url(img/Screenshot_20220121-190612.jpg);
+    background-size: 900px 1300px;
+   
+}
+/*#mydiv{
+    width: ;
+    height: ;
+    border: ;
+    overflow: ;
+}*/
+#mydiv{
+   display: block;
+}
+#mm{
+    width: 100px;
+    height: 100px;
+    background:red;
+    border-radius: 50%;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: 
+}
+
+@keyframes animate{
+   
+   0%{top: 0; left:0; background:red ;}
+   25%{top: 0; left:300px ;background:gray;}
+   50%{top: 300px;left: 300PX ;background:pink ;}
+   75%{top: 300px; left:0px ;background:yellow; }
+   100%{ top: 0px; left: 0px;background:green; }
+}
+
+i
+frame{
+    height: 500px;
+    width:500px ;
+}
+
+table{
+    width: 700px;
+    border: 5px solid red ;
+    border-collapse: collapse;
+    background: gray;
+
+}
+table th,tr,td{
+    border: 2px solid blue;
+}
+label{
+    color: red;
+}
+.myhome{
+    width:500px;
+    height:500px ;
+    background: gray;
+    margin:0px auto ;
+    box-shadow: 7px 7px 7px 7px black ;
+}
+
+h6{
+    font-family: 'Quintessential', cursive;
+    font-size: 20px;
+    color: lightseagreen;
+}
+.yoyo{
+    height:500px ;
+    width: 500px;
+    background: red;
+    position: relative;
+}
+.xoxo{
+    height:200px ;
+    width: 200px;
+    background: black;
+    position: absolute;
+}
+ul{
+    list-style-type: disc;
+    margin: 200px;
+}
+ul li a {
+    text-decoration: none;
+    padding: 10px;
+    background:black;
+    display: inline-block;
+    margin-bottom: 8px;
+    width: 100px;
+    text-align: center;
+    color: azure;
+    font-size: 20px;
+}
+ul li a:hover{
+    background: red;
+
+}
+ul li a:active{
+    background: aqua;
+    width: 100px;
+}
+.you{
+    width: 300px;
+    height: 300px;
+    background: aqua;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+
+}
+.you>img{
+    width: 300px;
+    height: 300px
+}
+.you:before{
+    content:"" ;
+    width:50% ;
+    height:100% ;
+    background:red;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.you:after{
+content:"" ;
+width:50% ;
+height:100% ;
+background:yellow;
+position: absolute;
+top:0;
+right:0;
+}
+.you:after{
+    content: "";
+}
+.you:hover.you:before{
+    left: 50%;
+}
+.you:hover.you:after{
+    right: 50%;
+}
+#menu{
+    width: 1200px ;
+    height: 55px;
+    background:black;
+    margin: 30px auto 0px auto ;
+    list-style-type: none;
+}
+#menu li{
+    float: left;
+ 
+ 
+   
+}
+#menu li a{
+        text-decoration: none;
+        padding: 15px;
+
+}
+#menu li:hover ul{
+    list-style-type: none;
+    left: 0px;
+
+}
+#menu li ul li{
+    float: none;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.maindiv>.child1 img{
+    width: 200px;
+    height: 300px;
+}
+.maindiv{
+width: 1200px;
+margin: 50 auto;
+}
+.child1{
+    float: left;
+    width: 360px;
+    margin-right: 30px;
+
+}
+.child1 h11{
+ color: black
+}
